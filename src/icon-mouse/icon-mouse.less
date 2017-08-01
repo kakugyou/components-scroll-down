@@ -1,0 +1,74 @@
+/* icon-mouse -------------------------------------------------*/
+#icon-mouse {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  margin-left: -11px;
+}
+#icon-mouse span {
+  display: inline-block;
+  width: 22px;
+  height: 32px;
+  border: 3px solid;
+  border-radius: 11px;
+  position: relative;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+#icon-mouse.white span {
+  color: #ffffff;
+}
+#icon-mouse.black span {
+  color: #000000;
+}
+#icon-mouse i {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  top: 5px;
+  left: 50%;
+  margin-left: -2px;
+  border-radius: 50%;
+  border: 2px solid;
+  /*
+      -moz-animation: mouse-act 700ms ease 0s infinite alternate;
+      -webkit-animation: mouse-act 700ms ease 0s infinite alternate;
+      -o-animation: mouse-act 700ms ease 0s infinite alternate;
+      -ms-animation: mouse-act 700ms ease 0s infinite alternate;
+      animation: mouse-act 700ms ease 0s infinite alternate;
+  */
+}
+@-moz-keyframes mouse-act {
+  0% {top: 5px; opacity: 0}
+  60% {opacity: 1}
+  100% {top: 11px;}
+}
+@-webkit-keyframes mouse-act {
+  0% {top: 5px; opacity: 0}
+  60% {opacity: 1}
+  100% {top: 11px;}
+}
+@-o-keyframes mouse-act {
+  0% {top: 5px; opacity: 0}
+  60% {opacity: 1}
+  100% {top: 11px;}
+}
+@-ms-keyframes mouse-act {
+  0% {top: 5px; opacity: 0}
+  60% {opacity: 1}
+  100% {top: 11px;}
+}
+@keyframes mouse-act {
+  0% {top: 5px; opacity: 0}
+  60% {opacity: 1}
+  100% {top: 11px;}
+}
+@media screen and (max-width: 767px){
+  #key-visual #icon-mouse {
+    bottom: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+<!-- CSS -->
+<link type="text/css" rel="stylesheet" href="icon-mouse.less" />
+
+<!-- HTML -->
+<p id="icon-mouse" class="white"><span><i></i></span></p>
+
+
+<!-- JS -->
+<script src="/bower_components/velocity/velocity.min.js"></script>
+<script>
+  // マウスアニメーション
+  $iconMouse = $('#icon-mouse i');
+  $iconMouse.velocity({opacity: 0}).velocity({translateY: '6px', opacity: 1.8}, { easing: 'easeOutSine', delay: 100, duration: 1000, loop: true });
+</script>
