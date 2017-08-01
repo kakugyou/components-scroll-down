@@ -1,0 +1,23 @@
+{
+  "name": "components-scroll-down",
+  "homepage": "https://github.com/kakugyou/components-scroll-down",
+  "authors": [
+    "kakugyou <kaian.xiao@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage.js": "~2.9.4",
+    "jquery": "1.11.3",
+    "velocity": "~1.5.0"
+  }
+}

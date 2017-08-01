@@ -1,0 +1,25 @@
+{
+  "name": "components-scroll-down",
+  "version": "1.0.0",
+  "description": "Collect scroll down effects",
+  "main": "fis-conf.js",
+  "scripts": {
+    "clean": "rimraf ./output && mkdir output",
+    "fis3-build": "fis3 release",
+    "serve": "npm run clean && npm run fis3-build && cd output && puer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakugyou/components-scroll-down.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakugyou/components-scroll-down/issues"
+  },
+  "homepage": "https://github.com/kakugyou/components-scroll-down#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.1"
+  }
+}
