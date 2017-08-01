@@ -1,0 +1,28 @@
+.icon_scrolldown{
+  position: absolute;
+  left: 50%;
+  bottom: 93px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: .4em;
+  transform: translate(-50%,0);
+  color:#fff;
+
+  &:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    display: block;
+    width: 15px;
+    height: 66px;
+    background: url(graphic/scrolldown/attention_scrolldown.png) no-repeat;
+    transform: translate(-50%,0);
+    animation: scrolldown 1.5s steps(26) 0s forwards infinite;
+  }
+}
+
+@keyframes scrolldown {
+  from { background-position: 0 0; }
+  to   { background-position: -390px 0; }
+}
